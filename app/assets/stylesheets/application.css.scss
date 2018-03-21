@@ -40,6 +40,7 @@ ul {
 // Nav Styles
 .navbar {
   border: none;
+  margin-bottom: 0px;
 }
 
 .navbar-brand {
@@ -83,4 +84,10 @@ ul {
 // Experience Styles
 .experience-callout > ul > li {
   font-size: 18px;
+}
+
+.home-image {
+  width:auto;
+  height:auto;
+  background-size:contain;
 }
