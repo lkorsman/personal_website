@@ -79,12 +79,17 @@ ul {
 }
 
 // About Styles
+.about-me-header {
+  padding-bottom:30px;
+  font-size: 18px;
+} 
+
 .about-me-body {
   font-size: 18px;
 }
 
 // Experience Styles
-.experience-callout > ul > li {
+.col-md-11 > ul > li {
   font-size: 18px;
 }
 
