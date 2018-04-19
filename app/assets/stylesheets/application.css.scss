@@ -29,7 +29,7 @@ ul {
   list-style-type: none;
 }
 
-// Background Gradient
+// Background Gradient for Navbar
 .navbar, .home-callout {
   // Gradient provided by @_ighosh at uiGradients.com
   background: #44A08D;  /* fallback for old browsers */
@@ -70,26 +70,72 @@ ul {
 
 // Homepage Styles
 .home-callout {
+  background: #8e9eab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
-  margin-top: -20px;
+  margin-top: 0px;
   padding-top: 10px;
   padding-bottom: 50px;
   padding-left: 0px;
   padding-right: 0px;
 }
 
+.home-my-name {
+  font-family: 'Rock Salt', cursive;
+  font-size: 40px;
+  color: #4d4d4d;
+}
+
+.home-body {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  background: #44A08D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.home-images {
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #8e9eab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 // About Styles
 .about-me-header {
-  padding-bottom:30px;
+  color: #4d4d4d;
   font-size: 18px;
+  background: #8e9eab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-bottom:30px;
 } 
 
 .about-me-body {
+  color: #4d4d4d;
   font-size: 18px;
+  background: #8e9eab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 // Experience Styles
 .col-md-11 > ul > li {
   font-size: 18px;
+}
+
+.experience-body {
+  color: #4d4d4d;
+  background: #8e9eab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 

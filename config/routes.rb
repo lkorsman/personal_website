@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
-  root to: 'pages#home'
+  root to: 'pages#home2'
   get 'about', to: 'pages#about'
   get 'experience', to: 'pages#experience'
   resources :contacts, only: :create
