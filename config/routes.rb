@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get 'experience', to: 'pages#experience'
   resources :contacts, only: :create
   get 'contact-me', to: 'contacts#new', as: 'new_contact'
+  get 'test', to: 'pages#haha'
 end
