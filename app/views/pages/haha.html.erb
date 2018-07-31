@@ -2,8 +2,10 @@
 <html>
     <div class="container-fluid">
       <div class="col-xs-10 col-xs-offset-1">
-        <a href="/users/sign_in" class="btn btn-default navbar-btn">Log In</a>
-        <a href="/users/sign_up" class="btn btn-default navbar-btn">Sign Up</a>
+        <% if !user_signed_in? %>
+          <a href="/users/sign_in" class="btn btn-default navbar-btn">Log In</a>
+          <a href="/users/sign_up" class="btn btn-default navbar-btn">Sign Up</a>
+        <% end %>
         <%= link_to "Create your profile!", new_user_profile_path(user_id: current_user.id) if user_signed_in? %>
     </div>
     </div>

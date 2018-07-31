@@ -7,7 +7,11 @@
     </div>
   </div>
   <div class="container-fluid text-center home-body"> 
-  
+    <% if user_signed_in? %>
+      <% if current_user.profile %>
+        <%= link_to "View Profile", user_path(current_user.id), class: "btn btn-default" %>
+      <% end %>
+    <% end %>
     <h1>About Me</h1>
     I hail from the land of 10,000 lakes and food on a stick.
     <br><br>
