@@ -10,6 +10,8 @@
     <% if user_signed_in? %>
       <% if current_user.profile %>
         <%= link_to "View Profile", user_path(current_user.id), class: "btn btn-default" %>
+      <% else %>
+        <%= link_to "Create Profile", new_user_profile_path(user_id: current_user.id), class: "btn btn-info" %>
       <% end %>
     <% end %>
     <h1>About Me</h1>
