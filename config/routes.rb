@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users
+  resources :users do
+    resource :profile
+  end
   root to: 'pages#home2'
   get 'about', to: 'pages#about'
   get 'experience', to: 'pages#experience'
