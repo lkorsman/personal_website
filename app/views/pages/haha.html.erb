@@ -3,6 +3,8 @@
     <div class="container-fluid">
       <div class="col-xs-10 col-xs-offset-1">
         <h3>pwned by L337 h4x0r</h3>
+        <%= link_to "Login", new_user_registration_path %>
+        <%= link_to "Create your profile!", new_user_profile_path(user_id: current_user.id) if user_signed_in? %>
     </div>
     </div>
 </html>
