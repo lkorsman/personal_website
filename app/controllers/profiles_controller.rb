@@ -1,6 +1,6 @@
 class ProfilesController < ApplicationController
    before_action :authenticate_user!
-   before_action :only_current_user
+   rails before_action :only_current_user
    
    # GET to /users/:user_id/profile/new
    def new
