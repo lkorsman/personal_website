@@ -44,8 +44,8 @@ gem 'devise', '4.2.0'
 gem "http"
 
 group :development, :test do
-  # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
+  # Use PostgreSQL as the database for Active Record
+  gem 'pg'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
