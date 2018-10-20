@@ -45,7 +45,7 @@ gem "http"
 
 group :development, :test do
   # Use PostgreSQL as the database for Active Record
-  gem 'pg'
+  gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
