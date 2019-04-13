@@ -8,6 +8,24 @@
         </div>
         <div class="col-xs-11">
           <h1>Experience</h1>
+          
+          <h3>Projects</h3>
+          <ul>
+            <li><b><%= link_to "Website Word Frequency:", "https://github.com/lkorsman/JavaWebReader", target: :_blank %></b>
+            A Java command line application. The application hashes the count of words in the body of a webpage. It also
+            removes common words and output the top 10 most frequent words to a .txt file.
+            </li>
+            <li><b><%= link_to "Caesar Cipher Web Application:", "https://github.com/lkorsman/EncryptWordWebApp", target: :_blank %></b>
+            An ASP.NET MVC application. It encrypts input strings using a Caesar cipher shift. It also allows the user to guess
+            the Caesar cipher shift value.
+            </li>
+            <li><b>Distributed Information Storage:</b> A C++ set of programs which sets up a distrbuted network of nodes which store
+            values provided by the user. A client program provides a key/value pair and contacts a node in the network to store the pair. 
+            The network of nodes hashes the key and decides which node will store the information. The client program can then retrieve, 
+            replace or delete the key/value pair from any node.
+            </li>
+          </ul>
+          
           <h3>Education</h3>
           <ul>
             <li><b>Seattle University</b> - Masters in Computer Science (expected 2020)</li>
@@ -27,11 +45,13 @@
             <li>Fundamentals of Software Engineering</li>
             <li>Object-Oriented Concepts</li>
             <li>Software Architecture and Design</li>
+            <li>Software as a Service</li>
+            <li>Software Testing and Debugging</li>
           </ul>
           <h3>Languages</h3>
           <ul>
-            <li>Proficient: C#, C++, CSS, HTML, Java</li>
-            <li>Working Knowledge: Bash, Javascript, Python, R, Ruby, SQL</li>
+            <li>Proficient: C#, C++, CSS, HTML, Java, Python</li>
+            <li>Working Knowledge: Bash, Javascript, Ruby, SQL</li>
           </ul>
           <h3>Skills</h3>
          <ul>
@@ -45,8 +65,7 @@
             <li>RFP/RFIs</li>
             <li>Conflict Resolution</li>
             <li>User Testing</li>
-            <li>.NET</li>
-            <li><%= link_to "GitHub", "https://github.com/lkorsman", target: :_blank %></li>
+            <li>ASP.NET</li>
           </ul>
           <h3>Positions</h3>
           <ul>
