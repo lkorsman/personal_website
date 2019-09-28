@@ -38,7 +38,7 @@ gem 'font-awesome-sass', '4.6.2'
 gem 'hirb', '0.7.3'
 
 # Use Devise for authentication
-gem 'devise', '4.2.0'
+gem 'devise', '4.7.1'
 
 # Use http 
 gem "http"
